@@ -1,1 +1,5 @@
-
+name: JoinUI
+version: INDEV
+api: [3.0.0-ALPHA10, 3.0.0-ALPHA11, 3.O.1]
+main: Napol\JoinUI
+author: NapolGamerTH @ AnuchitZaza
