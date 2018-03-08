@@ -26,7 +26,7 @@ class JoinUI extends PluginBase implements Listener{
     $this->Eco = $this->getServer()->getPluginManager()->getPlugin("EconomyAPI");  
      }else{
         $this->getLogger()->info(TextFormat::RED . "ไม่อนุญาติให้ใช้ปลั๊กอินได้");
-        $this->getPluginLoader()->disablePlugin ($this);
+        $this->getPluginLoader()->disablePlugin($this);
      }   
 
     public function onDisable() : void{
